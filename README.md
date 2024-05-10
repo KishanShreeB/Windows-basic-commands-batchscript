@@ -30,8 +30,8 @@ Create a directory named "MyLab" on the desktop.
 ## COMMAND AND OUTPUT
 
 mkdir %userprofile%\Desktop\MyLab
+![Alt text](<Screenshot 2024-05-10 162434.png>)
 
-![alt text](image-1.png)
 Change to the "MyLab" directory and create an empty text file named "MyFile.txt" inside it.
 
 
@@ -39,14 +39,15 @@ Change to the "MyLab" directory and create an empty text file named "MyFile.txt"
 
 cd %userprofile%\Desktop\MyLab
 
-![alt text](image-2.png)
-![alt text](image-3.png)
+![Alt text](<Screenshot 2024-05-10 162518.png>)
+
 List the contents of the "MyLab" directory.
 
 
 ## COMMAND AND OUTPUT
 dir %userprofile%\Desktop\MyLab
-![alt text](image-10.png)
+
+![Alt text](<Screenshot 2024-05-10 162613.png>)
 
 Copy "MyFile.txt" to a new folder named "Backup" on the desktop.
 
@@ -56,16 +57,15 @@ mkdir %userprofile%\Desktop\Backup
 
 copy MyFile.txt %userprofile%\Desktop\Backup
 
-![alt text](image-8.png)
+![Alt text](image.png)
 
-![alt text](image-9.png)
 Move the "MyLab" directory to the "Documents" folder.
 
 
 ## COMMAND AND OUTPUT
 mv Myfile.txt %userprofile%\Documents
 
-![alt text](image-7.png)
+![Alt text](<Screenshot 2024-05-10 162728 - Copy.png>)
 ## Exercise 2: Advanced Batch Scripting
 ```
 Create a batch script named "BackupScript.bat" that creates a backup of files with the ".docx" extension from the "Documents" folder to a new folder named "DocBackup" on the desktop.
@@ -86,8 +86,7 @@ echo Backup and deletion completed successfully!
 ```
 
 ## OUTPUT
-
-![alt text](image-6.png)
+![Alt text](<Screenshot 2024-05-10 161545.png>)
 
 
 
